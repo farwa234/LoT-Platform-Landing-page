@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CSS */
+.graph-bg{
+  min-height: 100vh;
+  /* grid size 40px, horizontal and vertical thin lines */
+  background-image:
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.12) 0 1px, transparent 1px 40px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.12) 0 1px, transparent 1px 40px);
+  background-color: #fff; /* paper ka base color */
+  background-size: auto;
+}
+.nav-link{
+  color: black !important;
+}
+.nav-link:hover{
+  color: #3B82F6 !important;
+  text-decoration:underline !important;
+}
+.btn {
+  background: linear-gradient(to right, #3B82F6, #1D4ED8);
+  -webkit-background:inherit;
+  -webkit-text-fill-color:#fff;
+  border-radius: 15px;
+
+}
+.btn:hover{
+   transform: scale(1.05);
+    background: linear-gradient(to right, #3B82F6, #1D4ED8);
+  -webkit-background:inherit;
+  -webkit-text-fill-color:#fff;
+  border-radius: 15px;
+}
+.head{
+  font-size: 50px !important;
+}
+.lead{
+color: #000000;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #333;   /* poori line ka border */
+  width: fit-content;       /* content ke hisaab se width */
+}
+
+.logo-box {
+  flex: 1;                  /* sab box equal width */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border: 2px solid #0000004b; /* beech me line */
+}
+.color{
+background-color: #F8F9FA;
+}
+.dots {
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* alag-alag color */
+.dots span:nth-child(1) {
+  background: #4A85E8;
+}
+.dots span:nth-child(2) {
+  background:#48D4E7;
+}
+.dots span:nth-child(3) {
+  background:#89CED9;
+}
+.icons{
+font-size: 20px;
+}
+.foods:hover{
+  transform: translateY(15px);
+  cursor: pointer;
+}
+.footer-color{
+  background-color: #F8F9FA;
+  margin-top: 40px;
+  padding: 20px;
+}
+.beyond{
+background: linear-gradient(to right, #3B82F6, #1D4ED8);
+  color:#fff;
+  border-radius: 15px;
+}
+.button-beyond{
+  background-color: white !important;
+  color: #000000 !important; 
+  border: 2px solid white;
+}
+
+
+.app-buttons {
+  display: flex;
+  gap: 15px;         /* dono buttons ke beech space */
+  margin-top: 15px;  /* upar se space */
+}
+
+.app-buttons img {
+  height: 50px;      /* size control */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.app-buttons img:hover {
+  transform: scale(1.05);  /* hover effect */
+}
+
+
+
+
+
+
